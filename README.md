@@ -1,6 +1,6 @@
 # Pitico
 ## Introduction
-Pitico is a minimal URL shortener. It is a [Rocket](https://github.com/rwf2/Rocket/tree/v0.5) web server that shortens URLs with a Base 62 conversion approach. The shortened URLs are save in a [rusqlite](https://github.com/rusqlite/rusqlite) local database.
+Pitico is a minimal URL shortener. It is a [Rocket](https://github.com/rwf2/Rocket/tree/v0.5) web server that shortens URLs with a Base 62 conversion approach. The shortened URLs are saved in a [rusqlite](https://github.com/rusqlite/rusqlite) local database.
 
 ## Usage
 ### Running Pitico
@@ -27,4 +27,4 @@ bash fill_db.sh
 ```
 
 ## Configure
-The Rocket server's ip and port can be configured in the Rocket.toml file. The default ip and port is: `127.0.0.1` and `8000`.
+The Rocket server's ip and port can be configured in the Rocket.toml file. The default ip and port are: `127.0.0.1` and `8000`.
